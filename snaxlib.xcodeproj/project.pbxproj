@@ -6,8 +6,16 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		814D477814B0B18B0078D6DD /* SNTime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 814D477614B0B18B0078D6DD /* SNTime.cpp */; };
+		814D477914B0B18B0078D6DD /* SNTime.h in Headers */ = {isa = PBXBuildFile; fileRef = 814D477714B0B18B0078D6DD /* SNTime.h */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		814D476214B0A3AA0078D6DD /* libsnaxlib.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libsnaxlib.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		814D477314B0B18B0078D6DD /* snaxlib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = snaxlib.xcodeproj; sourceTree = "<group>"; };
+		814D477614B0B18B0078D6DD /* SNTime.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SNTime.cpp; sourceTree = "<group>"; };
+		814D477714B0B18B0078D6DD /* SNTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNTime.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +32,7 @@
 		814D475714B0A3AA0078D6DD = {
 			isa = PBXGroup;
 			children = (
+				814D477114B0B18B0078D6DD /* snaxlib */,
 				814D476314B0A3AA0078D6DD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -36,6 +45,29 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		814D477114B0B18B0078D6DD /* snaxlib */ = {
+			isa = PBXGroup;
+			children = (
+				814D477214B0B18B0078D6DD /* snaxlib */,
+				814D477314B0B18B0078D6DD /* snaxlib.xcodeproj */,
+				814D477614B0B18B0078D6DD /* SNTime.cpp */,
+				814D477714B0B18B0078D6DD /* SNTime.h */,
+			);
+			name = snaxlib;
+			sourceTree = "<group>";
+		};
+		814D477214B0B18B0078D6DD /* snaxlib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = snaxlib;
+			sourceTree = "<group>";
+		};
+		814D477414B0B18B0078D6DD /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -43,6 +75,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				814D477914B0B18B0078D6DD /* SNTime.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +117,12 @@
 			mainGroup = 814D475714B0A3AA0078D6DD;
 			productRefGroup = 814D476314B0A3AA0078D6DD /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 814D477414B0B18B0078D6DD /* Products */;
+					ProjectRef = 814D477314B0B18B0078D6DD /* snaxlib.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				814D476114B0A3AA0078D6DD /* snaxlib */,
@@ -96,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				814D477814B0B18B0078D6DD /* SNTime.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
